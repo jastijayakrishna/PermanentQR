@@ -1,0 +1,10 @@
+name = "pqr-redirect"
+main = "src/worker.js"
+compatibility_date = "2024-01-01"
+
+[vars]
+FALLBACK_URL = "https://permanentqr.com/not-found-code"
+
+[[kv_namespaces]]
+binding = "QR_REDIRECTS"
+id = "<your-kv-namespace-id>"
